@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Forte, Futuro Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">AgroSustentável <span>🕷️</span></div>
+        <nav>
+            <ul>
+                <li><a href="#familiar">Agricultura Familiar</a></li>
+                <li><a href="#agronegocio">Agronegócio</a></li>
+                <li><a href="#sustentabilidade">Sustentabilidade</a></li>
+                <li><a href="#curiosidades">Curiosidades</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Agro Forte, Futuro Sustentável</h1>
+            <p>O equilíbrio perfeito entre a grande produção e a preservação do nosso planeta.</p>
+            <button onclick="scrollToSection('sustentabilidade')">Ver Soluções</button>
+        </div>
+    </section>
+
+    <section id="familiar" class="content-section">
+        <div class="container">
+            <h2>Agricultura Familiar: A Força da Comunidade</h2>
+            <div class="grid">
+                <div class="text-box">
+                    <p>A agricultura familiar é responsável pela maior parte dos alimentos que chegam à mesa dos brasileiros. Ela se baseia na gestão familiar, no respeito à terra e na biodiversidade local.</p>
+                    <p>Além de gerar empregos no campo, ela preserva tradições e promove o desenvolvimento social de pequenas regiões, sendo um pilar essencial para a segurança alimentar.</p>
+                </div>
+                <div class="image-box">
+                    <img src="https://images.unsplash.com/photo-1595974482597-4b8da8879bc5?auto=format&fit=crop&w=600&q=80" alt="Agricultura Familiar">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="agronegocio" class="content-section escura">
+        <div class="container">
+            <h2>Agronegócio: Tecnologia e Escala</h2>
+            <div class="grid reverse">
+                <div class="text-box">
+                    <p>O agronegócio move a economia global. Utilizando alta tecnologia, drones, análise de dados e maquinários de ponta, o setor consegue produzir em larga escala para abastecer mercados internacionais.</p>
+                    <p>O grande desafio atual — e que já está acontecendo — é integrar essa eficiência econômica com práticas de baixo impacto ambiental.</p>
+                </div>
+                <div class="image-box">
+                    <img src="https://images.unsplash.com/photo-1592982537447-6f2a6a0c7c18?auto=format&fit=crop&w=600&q=80" alt="Maquinário Agrícola moderno">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sustentabilidade" class="content-section">
+        <div class="container">
+            <h2>Equilíbrio e Sustentabilidade</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>Rotação de Culturas</h3>
+                    <p>Alternar as espécies plantadas ajuda a manter os nutrientes do solo e reduz pragas sem excesso de químicos.</p>
+                </div>
+                <div class="card">
+                    <h3>Crédito Carbono</h3>
+                    <p>Fazendas que preservam áreas verdes nativas podem emitir créditos, transformando preservação em ativo financeiro.</p>
+                </div>
+                <div class="card">
+                    <h3>Tecnologia Bio</h3>
+                    <p>Uso de defensivos biológicos (como insetos benéficos) para proteger a lavoura de forma natural.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="curiosidades" class="content-section escura">
+        <div class="container text-center">
+            <h2>Curiosidades do Agro</h2>
+            <div class="fact-box">
+                <p id="fact-text">Clique no botão abaixo para descobrir um fato incrível sobre o agro sustentável!</p>
+                <button id="btn-fato" onclick="mostrarFato()">Próximo Fato 🕷️</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 AgroSustentável. Com grandes poderes de produção, vêm grandes responsabilidades ambientais.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
